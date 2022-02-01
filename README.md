@@ -5,5 +5,12 @@
 Как пользоваться репозиторием
 каждый ведёт разработку в своей ветке. Имя ветки пример : ilya_poletuev
 Ветку Master не трогаем!
- 
-Никита Кузмичев Nikita_Kuzmichev nikname2018
+
+
+
+
+Фио				      Ветка		        Ник
+Илья Полетуев   ilya_poletuev   ilya-istep
+Мария Бычкова   mariy_bychkova  mariy-BMV
+
+
