@@ -7,4 +7,4 @@
 Ветку Master не трогаем!
 
 
-Олег Куделькин oleg_kudelkin JuniorNR
+Олег Куделькин oleg_kudelkin
