@@ -7,8 +7,6 @@
 Ветку Master не трогаем!
 
 
-
-
 ФИО				  	Ветка				 Ник
 Илья Полетуев     	ilya_poletuev   	 ilya-istep
 Егор Удалов		  	egor_udalov 		 egor-udalov
