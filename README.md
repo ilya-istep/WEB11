@@ -12,6 +12,7 @@
 
 
 
+
 ФИО				 Ветка				Ник
 Егор Удалов		 egor_udalov 		egor-udalov
 Илья Полетуев    ilya_poletuev   	ilya-istep
@@ -21,3 +22,7 @@
 Олег Куделькин   oleg_kudelkin   	JuniorNR
 Андрей Звягинцев andrei_zvjaginzev  kvisatz 
 Никита Любавин   nikita_lyubavin 	Mentagia
+Шкуратов Алексей aleksey_shkuratov  LexxVik
+
+
+
