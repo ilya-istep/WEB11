@@ -6,4 +6,4 @@
 каждый ведёт разработку в своей ветке. Имя ветки пример : ilya_poletuev
 Ветку Master не трогаем!
 
-Андрей Звягинцев ветка: andrei_zvjaginzev  ник: kvisatz 
+Андрей Звягинцев andrei_zvjaginzev  kvisatz 
