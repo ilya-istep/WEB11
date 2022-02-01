@@ -22,5 +22,4 @@
 Андрей Звягинцев andrei_zvjaginzev   kvisatz 
 Мария Бычкова    mariy_bychkova      mariy-BMV
 Евгений Беренштейн evgenii_beren     Shtein377
-
-
+Никита Кузмичев Nikita_Kuzmichev     nikname2018
