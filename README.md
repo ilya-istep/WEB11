@@ -7,4 +7,8 @@
 Ветку Master не трогаем!
 
 
-Мария Бычкова mariy_bychkova mariy-BMV
+
+Фио				      Ветка		        Ник
+Илья Полетуев   ilya_poletuev   ilya-istep
+Мария Бычкова   mariy_bychkova  mariy-BMV
+
