@@ -7,7 +7,6 @@
 Ветку Master не трогаем!
 
 
-
 Фио		 Ветка		     Ник
 Шкуратов Алексей aleksey_shkuratov   LexxVik
 Илья Полетуев    ilya_poletuev       ilya-istep
@@ -20,4 +19,4 @@
 Анна Доронина    Anna_Doronina       AnnHorror
 Роман Бородкин 	 Roman_Borodkin      Roman-istep 
 Олег Куделькин   oleg_kudelkin   
-
+Андрей Звягинцев andrei_zvjaginzev  kvisatz 
