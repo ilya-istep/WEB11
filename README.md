@@ -7,6 +7,7 @@
 Ветку Master не трогаем!
 
 
+
 ФИО				  	Ветка				 Ник
 Илья Полетуев     	ilya_poletuev   	 ilya-istep
 Егор Удалов		  	egor_udalov 		 egor-udalov
@@ -26,4 +27,9 @@
 
 
 
+
+
+Фио				      Ветка		        Ник
+Илья Полетуев   ilya_poletuev   ilya-istep
+Мария Бычкова   mariy_bychkova  mariy-BMV
 
