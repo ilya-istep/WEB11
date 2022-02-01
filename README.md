@@ -7,4 +7,7 @@
 Ветку Master не трогаем!
 
 
-1. Шкуратов Алексей Викторович / aleksey_shkuratov / LexxVik
+
+Шкуратов Алексей     aleksey_shkuratov    LexxVik
+Илья Полетуев        ilya_poletuev        ilya-istep
+Мария Бычкова        mariy_bychkova       mariy-BMV
