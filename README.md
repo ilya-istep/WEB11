@@ -7,4 +7,18 @@
 Ветку Master не трогаем!
 
 
-Мария Бычкова mariy_bychkova mariy-BMV
+Фио		 Ветка		     Ник
+Шкуратов Алексей aleksey_shkuratov   LexxVik
+Илья Полетуев    ilya_poletuev       ilya-istep
+Алексей Слётов   aleksey_sletov      PubliusNovus
+Анна Доронина    Anna_Doronina       AnnHorror
+Роман Бородкин 	 Roman_Borodkin      Roman-istep 
+Егор Удалов      egor_udalov 	     egor-udalov
+Илья Полетуев    ilya_poletuev       ilya-istep
+Алексей Слётов   aleksey_sletov      PubliusNovus
+Анна Доронина    Anna_Doronina       AnnHorror
+Роман Бородкин 	 Roman_Borodkin      Roman-istep 
+Олег Куделькин   oleg_kudelkin   
+Андрей Звягинцев andrei_zvjaginzev   kvisatz 
+Мария Бычкова    mariy_bychkova      mariy-BMV
+
