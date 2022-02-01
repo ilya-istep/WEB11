@@ -7,8 +7,6 @@
 Ветку Master не трогаем!
 
 
- 
-
 
 Фио		 Ветка		     Ник
 Шкуратов Алексей aleksey_shkuratov   LexxVik
