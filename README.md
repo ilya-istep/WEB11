@@ -7,6 +7,7 @@
 Ветку Master не трогаем!
 
 
+<<<<<<< HEAD
 
 
 
@@ -15,3 +16,6 @@
 Алексей Слётов  aleksey_sletov   PubliusNovus
 Анна Доронина   Anna_Doronina    AnnHorror
 
+=======
+Олег Куделькин oleg_kudelkin
+>>>>>>> oleg_kudelkin
