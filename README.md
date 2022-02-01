@@ -22,3 +22,4 @@
 Олег Куделькин   oleg_kudelkin   
 Андрей Звягинцев andrei_zvjaginzev  kvisatz 
 Никита Кузмичев Nikita_Kuzmichev nikname2018
+Шкуратов Димка  dima_shkuratov      dimagithu
