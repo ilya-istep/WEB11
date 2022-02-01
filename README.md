@@ -6,5 +6,8 @@
 каждый ведёт разработку в своей ветке. Имя ветки пример : ilya_poletuev
 Ветку Master не трогаем!
 
-Фио				Ветка		Ник
-Илья Полетуев ilya_poletuev ilya-istep
+
+Фио				Ветка		     Ник
+Илья Полетуев   ilya_poletuev    ilya-istep
+Алексей Слётов  aleksey_sletov   PubliusNovus
+
