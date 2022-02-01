@@ -10,8 +10,10 @@
 
 
 
+
 Фио				Ветка		     Ник
 Илья Полетуев   ilya_poletuev    ilya-istep
 Алексей Слётов  aleksey_sletov   PubliusNovus
 Анна Доронина   Anna_Doronina    AnnHorror
+Роман Бородкин 	Roman_Borodkin 	Roman-istep 
 
