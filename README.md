@@ -7,8 +7,6 @@
 Ветку Master не трогаем!
 
 
-<<<<<<< HEAD
-
 
 
 
@@ -16,8 +14,5 @@
 Илья Полетуев   ilya_poletuev    ilya-istep
 Алексей Слётов  aleksey_sletov   PubliusNovus
 Анна Доронина   Anna_Doronina    AnnHorror
-Роман Бородкин 	Roman_Borodkin 	Roman-istep 
-
-=======
-Олег Куделькин oleg_kudelkin
->>>>>>> oleg_kudelkin
+Роман Бородкин 	Roman_Borodkin 	 Roman-istep 
+Олег Куделькин  oleg_kudelkin   
