@@ -7,4 +7,11 @@
 Ветку Master не трогаем!
 
 
-1. Шкуратов Алексей Викторович / aleksey_shkuratov / LexxVik
+Фио				Ветка		     Ник
+Шкуратов Алексей Викторович / aleksey_shkuratov / LexxVik
+Илья Полетуев   ilya_poletuev    ilya-istep
+Алексей Слётов  aleksey_sletov   PubliusNovus
+Анна Доронина   Anna_Doronina    AnnHorror
+Роман Бородкин 	Roman_Borodkin 	 Roman-istep 
+Олег Куделькин  oleg_kudelkin   
+
