@@ -7,6 +7,7 @@
 Ветку Master не трогаем!
 
 
+<<<<<<< HEAD
 
 
 
@@ -17,3 +18,6 @@
 Анна Доронина   Anna_Doronina    AnnHorror
 Роман Бородкин 	Roman_Borodkin 	Roman-istep 
 
+=======
+Олег Куделькин oleg_kudelkin
+>>>>>>> oleg_kudelkin
