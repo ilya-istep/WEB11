@@ -7,4 +7,10 @@
 Ветку Master не трогаем!
 
 
-Роман Бородкин Roman_Borodkin Roman-istep 
+
+
+Фио				      Ветка		        Ник
+Илья Полетуев   ilya_poletuev   ilya-istep
+Мария Бычкова   mariy_bychkova  mariy-BMV
+Роман Бородкин  Roman_Borodkin   Roman-istep
+
