@@ -9,8 +9,11 @@
 
 
 Фио				      Ветка		        Ник
+
 Илья Полетуев   ilya_poletuev   ilya-istep
 Мария Бычкова   mariy_bychkova  mariy-BMV
 Алексей Слётов aleksey_sletov PubliusNovus
+Илья Полетуев   		ilya_poletuev   	ilya-istep
+Мария Бычкова   		mariy_bychkova  	mariy-BMV
 
 
