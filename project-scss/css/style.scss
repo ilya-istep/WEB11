@@ -1,0 +1,30 @@
+.banner{
+	color: #f00;
+
+	&__link{
+		color: #f0f;
+	}
+	.link-banner{
+		&__picture{
+		color: #fff;
+		}
+	}
+}
+
+.search{
+	display: inline-block;
+	&__form{
+		border: 2px solid #fcc;	
+	}
+	search-form{
+		&__field-text{
+			color: green;
+		}
+		&__btn{
+			border: 2px sold red;
+			&_active{
+
+			}
+		}
+	}
+}

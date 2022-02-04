@@ -1,0 +1,17 @@
+.banner {
+  color: #f00; }
+  .banner__link {
+    color: #f0f; }
+  .banner .link-banner__picture {
+    color: #fff; }
+
+.search {
+  display: inline-block; }
+  .search__form {
+    border: 2px solid #fcc; }
+  .search search-form__field-text {
+    color: green; }
+  .search search-form__btn {
+    border: 2px sold red; }
+
+/*# sourceMappingURL=style.css.map */
