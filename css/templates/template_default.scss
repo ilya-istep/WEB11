@@ -1,0 +1,64 @@
+.el-main{
+	background: $color1;
+}
+.header{
+	background: $color2;
+
+	.header-wrap{
+		@include wrap();
+
+		height:100px;
+		background: #f00;
+
+		@include desktop{
+			background: #0f0;
+			width: 90%;
+		}
+		@include laptop{
+			background: #00f;
+			width: 90%;
+		}
+		@include tablets{
+		width: 90%;
+		}
+		@include phones{
+			width: 90%;
+		}
+	}
+}
+
+.news-slider{
+	display: flex;
+	position: relative;
+	width: 730px;
+	height: 58px;
+	background-color: $color2;
+
+	&__arrow{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 30px;
+		height: 100%;
+		transition: 0.2s ease;
+	}
+	&__arrow:hover{
+		background-color: $color4;
+		cursor: pointer;
+		transition: 0.2s ease;
+		
+		.fas{
+			color: #fff;
+		}
+	}
+	.images{
+		flex-grow: 1;
+		position: relative;
+		display: flex;
+		justify-content: center;
+
+		&__images-item{
+			height: 100%;
+		}
+	}
+}
