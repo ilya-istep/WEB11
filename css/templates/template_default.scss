@@ -35,12 +35,14 @@
 	background-color: $color2;
 
 	&__arrow{
+		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 30px;
 		height: 100%;
 		transition: 0.2s ease;
+		background-color: inherit;
 	}
 	&__arrow:hover{
 		background-color: $color4;
@@ -48,7 +50,7 @@
 		transition: 0.2s ease;
 		
 		.fas{
-			color: #fff;
+			color: $color2;
 		}
 	}
 	.images{
@@ -56,6 +58,7 @@
 		position: relative;
 		display: flex;
 		justify-content: center;
+		overflow: hidden;
 
 		&__images-item{
 			height: 100%;
