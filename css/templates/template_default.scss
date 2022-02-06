@@ -3,7 +3,6 @@
 }
 .header{
 	background: $color2;
-
 	.header-wrap{
 		@include wrap();
 
@@ -25,4 +24,18 @@
 			width: 90%;
 		}
 	}
+}	
+.carousel{
+	@include wrap();
+	background: $color1;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	&__arrow{
+		@include carousel-arrow();
+	}
+	&__news-post{
+		@include carousel-news-post(); 
+		width: 40%;
+	}
 }
+
