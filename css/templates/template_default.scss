@@ -24,7 +24,6 @@
 		@include phones{
 			width: 90%;
 		}
-
 		.logo{
 		    background: #fff;
 		    .logo__row{
@@ -53,13 +52,52 @@
 		    position: relative;
 		    padding-left: 15px;
 		    box-sizing:border-box;
-		    img{padding: 15px;
+		    img{
+		    	padding: 15px;
 		        display: block;
 		        max-width: 100%;
 		        vertical-align: middle;
 		        
-
 		    }
+		}
+	}
+}
+
+.news-slider{
+	display: flex;
+	position: relative;
+	width: 730px;
+	height: 58px;
+	background-color: $color2;
+
+	&__arrow{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 30px;
+		height: 100%;
+		transition: 0.2s ease;
+		background-color: inherit;
+	}
+	&__arrow:hover{
+		background-color: $color4;
+		cursor: pointer;
+		transition: 0.2s ease;
+		
+		.fas{
+			color: $color2;
+		}
+	}
+	.images{
+		flex-grow: 1;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+
+		&__images-item{
+			height: 100%;
 		}
 	}
 }
