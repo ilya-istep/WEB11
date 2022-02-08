@@ -61,43 +61,85 @@
 		    }
 		}
 	}
-}
+		.bottom_menu{
+		background: #fcfcfc;
 
-.news-slider{
-	display: flex;
-	position: relative;
-	width: 730px;
-	height: 58px;
-	background-color: $color2;
+		.menu{
+			display:flex;
 
-	&__arrow{
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 30px;
-		height: 100%;
-		transition: 0.2s ease;
-		background-color: inherit;
-	}
-	&__arrow:hover{
-		background-color: $color4;
-		cursor: pointer;
-		transition: 0.2s ease;
-		
-		.fas{
-			color: $color2;
+			li{
+			 display: flex;
+			 list-style: none;
+		   	 background:#fff;
+		   	 position: relative;
+		  	 height: 70px;
+		  	 align-items: center;
+		  	 padding: 0 15px;
+		  	 justify-content: center;
+		  	 transition: 0.1s ease;
+		  	 box-sizing:border-box
+			}
+			ul > li{
+			 height: 40px;
+		  	 min-width: 230px;
+		  	 justify-content: left;
+		  	 color: black;
+		  	 border-bottom: 1px solid black;
+		  	 border-left:1px solid black;
+		  	 border-right:1px solid black;
+			}
+			ul ul > li{
+			 min-width: 200px;
+			 justify-content: left;
+			}
+			a{
+			 color: #000;
+		  	 text-decoration: none;
+		  	 display: block;
+			}
+			> li:before{
+			 content:'';
+		 	 position: absolute;
+		 	 top: 0;
+		  	 left: 0;
+		  	 width: 100%;
+		   	 background:#fcfcfc;
+		  	 height: 0;
+		  	 transition: all 0.2s ease;
+		  	 opacity: 1;
+			}
+			li:hover:before{
+			 height: 68px;
+			}
+			> li:hover{
+			 border-bottom: 2px solid #1091ff;
+			}
+			ul > li:hover{
+			 background: #1091ff;
+			}
+			ul{
+			 position: absolute;
+		  	 left: 0;
+		  	 top: 100%;
+		  	 display: none;
+		 	 padding: 0;
+			}
+			> li:hover > a{
+			 color:#1091ff;
+		  	 z-index: 2;
+			}
+			li:hover > ul{
+			 display: block;
+			}
+			ul ul{
+			 display: none;
+		 	 top: 0;
+		 	 left: 100%;
+			}
+			i{
+			 margin-right:5px;
+		  	 z-index: 2;
+			}
 		}
-	}
-	.images{
-		flex-grow: 1;
-		position: relative;
-		display: flex;
-		justify-content: center;
-		overflow: hidden;
-
-		&__images-item{
-			height: 100%;
-		}
-	}
+	}		
 }
