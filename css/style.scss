@@ -1,11 +1,55 @@
-@import 'reset.css';
-@import 'common/var.scss';
-@import 'common/mixins.scss';
-@import 'common/animation.scss';
-@import 'templates/template_default.scss';
+@import "reset.css";
+@import "common/var.scss";
+@import "common/fonts.scss";
+@import "common/mixins.scss";
+@import "common/animation.scss";
+@import "templates/template_default.scss";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.most-view {
+  width: 350px;
+  margin-bottom: 30px;
+  font-family: $heeboMedium;
+  &__top-wrapper {
+    @include flexBetween;
+    width: 100%;
+    align-items: center;
+  }
+  &__title {
+    font-size: 24px;
+  }
+  &__arrows {
+    @include flexBetween;
+    width: 75px;
+  }
+  &__left-arrow,
+  &__right-arrow {
+    border: 1px solid #b4b4b4;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+      background: #1091ff;
+      border: 1px solid #1091ff;
+      color: #fff;
+    }
+  }
+  &__articles {
+  }
+  &__article {
+    &-wrapper {
+      @include flexBetween;
+    }
+  }
+}
 
 
-
-
-
-@import 'common/media.scss';
+@import "common/media.scss";
