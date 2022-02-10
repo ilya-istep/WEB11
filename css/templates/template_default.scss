@@ -3,12 +3,19 @@
 
 html{
 	font-size: 16px;
-
+}
 .el-main {
     background: $color1;
 
 }
+
 .header-wrap{
+
+}
+
+.header{
+	background: $color2;
+	.header-wrap{
 		@include wrap();
 		flex-wrap: wrap;
 
@@ -60,6 +67,43 @@ html{
 		        max-width: 100%;
 		        vertical-align: middle;
 		    }
+		}
+	}
+}	
+.carousel{
+	@include wrap();
+	background: $color1;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	@include desktop{
+		width: 90%;
+	}
+	@include laptop{
+		width: 90%;
+	}
+	@include tablets{
+		width: 90%;
+	}
+	@include phones{
+		width: 90%;
+	}
+	&__arrow{
+		@include carousel-arrow();
+	}
+	&__news-post{
+		@include carousel-news-post(); 
+		width: 40%;
+		@include desktop{
+			font-size: 12px;
+		}
+		@include laptop{
+			font-size: 12px;
+		}
+		@include tablets{
+			font-size: 12px;
+		}
+		@include phones{
+			font-size: 12px;
 		}
 	}
 }
@@ -442,5 +486,35 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
-
+.news-post3{
+	@include laptop{
+		display: none;
+		}
+	@include tablets{
+		display: none;
+	}
+	@include phones{
+		display: none;
+	}
+}
+.news-post2{
+	@include tablets{
+		display: none;
+		}
+	@include phones{
+		display: none;
+	}
+}
+.news-post1,
+.news-post2{
+	@include laptop{
+		width: 50%;
+		}
+	@include tablets{
+		width: 100%;
+	}
+	@include phones{
+		width: 100%;
+	}
+}
 
