@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.btn_menu{
+			border-color: transparent;
+			background-color: transparent;
+			cursor: pointer;
+			position: relative;
+			z-index: 4;
+			width:  36px;
+			height: 31px;
+		}
+		.btn_menu span{
+			background-color: #000;
+			height:  3px;
+			width: 20px;
+			margin: 4px 0;
+			display: block;
+			transition: 0.5s ease;
+		}
+		.btn_menu span:nth-child(2){
+			margin-left:  -5px;
+		}
+		.wrap_top{
+			display: flex;
+			justify-content: flex-end;
+		}
+		.main_menu{
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			right: 0;
+			top:  0;
+			left: 0;
+			display:  none;
+		}
+		.main_wrap.active .main_menu{
+			display: block;
+		}
+		.main_wrap.active .btn_menu span:nth-child(2){
+			display: none;
+		}
+		.main_wrap.active .btn_menu span:nth-child(1){
+			transform: rotate(-45deg);
+			margin-top: 7px;
+		}
+		.main_wrap.active .btn_menu span:nth-child(3){
+			transform: rotate(45deg);
+			margin-top: -7px;
+		}
+		.main_wrap.active .main_menu:before{
+			content:  "";
+			display:  block;
+			width: 0px;
+			height: 0px;
+			background-color: #f00;
+			border-radius:  50%;
+			position: absolute;
+			right: 0x;
+			top: 0px;
+			animation: menu_circle 2s ease;
+		}
+
+		@keyframes menu_circle{
+			0%{
+				width: 10px;
+				height: 10px;
+				right: -5px;
+				top: -5px;
+			}
+			100%{
+				width: 300%;
+				height: 300%;
+				right: -100%;
+				top: -100%;
+			}
+		}
+
+		/*.main_wrap.active .circle{
+			position:  fixed;
+			background-color: transparent;
+			border-radius: 100%;
+			width: 50px;
+			height: 50px;
+			left: 80%;
+			top: -2px;
+			animation: opening 1s ease;
+			z-index: -4;
+		}
+
+		@keyframes opening{
+			0%{
+				transform: scale(1, 1);
+				background-color: #f00;
+			}
+
+			100%{
+				transform: scale(80, 80);
+				background-color: #f00;
+			}
+		}
+		*/
+	</style>
+</head>
+<body>
+	<div class="wrap main_wrap">
+		<div class="circle"></div>
+
+		<div class="wrap_top">
+			<button class="btn_menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+
+		<nav class="main_menu">
+			<ul>
+				<li><a href="#">item 1</a></li>
+				<li><a href="#">item 2</a></li>
+				<li><a href="#">item 3</a></li>
+				<li><a href="#">item 4</a></li>
+				<li><a href="#">item 5</a></li>
+			</ul>
+		</nav>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+
+	<script>
+		let btn = document.querySelector(".btn_menu");
+		let main_wrap = document.querySelector(".main_wrap");
+
+		btn.addEventListener('click', ()=>{
+			main_wrap.classList.toggle('active');
+		})
+
+	</script>
+</body>
+</html>
